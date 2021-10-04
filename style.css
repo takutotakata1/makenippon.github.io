@@ -1,0 +1,125 @@
+.title-seen
+{
+    height: 100vh; /* 全画面表示 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(スタート/タイトル2.png);
+}
+
+.box
+{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+  
+.box img
+{
+    width: 100%;
+}
+  
+.boxlink1
+{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxlink2
+{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 90%;
+    left: 50%;
+}
+
+.box a
+{
+    font-size: 72px;
+    font-family: "青柳衡山フォントT OTF";
+    color: #b94047;
+    transition: color 0.3s;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%,#b94047 );
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+ 
+.box a:visited{
+    color: #b94047;
+}
+
+.box a:hover{
+    background-position: -100% 0;
+    color: white;
+  }
+
+.scores{
+    position: absolute;
+    text-align: left;
+    font-family: "青柳衡山フォントT OTF";
+    top: 1%;
+    left: 1.3%;
+    font-size: 22px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+
+.plana{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "青柳衡山フォントT OTF";
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+}
+
+.planb{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "青柳衡山フォントT OTF";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.planc{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-family: "青柳衡山フォントT OTF";
+    top: 50%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+}
+
+.plan{
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+    font-family: "青柳衡山フォントT OTF";
+    top: 5%;left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.plan h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.scoreChange{
+    text-align: center;
+    font-size: 50px;
+    color: #b94047;
+    /*
+    position: absolute;
+    top :400px;left: 50%;
+    transform: translate(-50%, 0%);
+    */
+}
