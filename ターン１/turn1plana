@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>MAKE日本-ターン1-プランA</title>
+</head>
+<body>
+    <div class="box">
+        <img src="../背景3.png" alt="">
+        <div class="scores">
+            <div class="seijiscore">政治：</div>
+            <div class="keizaiscore">経済：</div>
+            <div class="gunjiscore">軍事力：</div>
+            <div class="bunkascore">文化：</div>
+            <div class="kouhukuscore">幸福：</div>
+        </div>
+        <div class="plan">
+            <h1>廃藩置県</h1>
+            <div>
+                　廃藩置県は、西郷・木戸・大久保ら新政府高官が推し進めたもので、1871年に明治天皇が言い渡した。<br>
+                　当時の藩は、戦争などによって財政も苦しくなっており、大名から反対の声は上がらなかった。<br>
+                　これによって日本は、政府が全国を同じ方法で支配する、中央集権型の国家となった。<br>
+                　こののち明治政府は、教育・税制・軍事などの改革を推し進めていくことになる。<br>
+            </div>
+            <div class="scoreChange">
+                政治：+50<br>
+                軍事：+10<br>
+            </div>
+        </div>
+        <div class="boxlink2 ev1"><a href="turn1event.html">>次へ</a></div>
+    </div>
+    <!---->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
