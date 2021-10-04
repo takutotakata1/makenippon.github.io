@@ -1,6 +1,6 @@
 @font-face {
   font-family: "青柳衡山フォントT OTF"; //好きな名前を設定します。
-  src: url('https://takutotakata1.github.io/makenippon.github.io/AoyagiKouzanTOTF.otf');
+  src: url('https://takutotakata1.github.io/makenippon.github.io/AoyagiKouzanTOTF.otf')　format("opentype");;
 }
 
 .title-seen
